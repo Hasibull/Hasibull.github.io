@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+/* ------------------------------------------ */
+/* Navbar styling */
+/* ------------------------------------------ */
+
+.nav-bar {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-logo .logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.navbar-nav{
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0c0c0c;
+    font-weight: 700;
+}
