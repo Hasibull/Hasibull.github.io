@@ -1,0 +1,37 @@
+
+.my-nav-bar {
+    width: 100%;
+    margin: 5px auto;
+    background-color: #fff;
+    padding: 12px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.home-logo .logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.my-navbar-nav{
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-nav-link a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #333333;
+    font-weight: 700;
+}
+
+.main-section {
+    background-color: ;
+}

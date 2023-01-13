@@ -3,31 +3,75 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home | Hasibul's Blog</title>
+        <title>Home | Hasibul's Diary</title>
         <link rel="shortcut icon" type="image" href="./img/general/home-fav-icon.png">
         <link rel="stylesheet" href="./css/general/style.css">
+        <link rel="stylesheet" href="./css/general/navbar.css">
+        <link rel="stylesheet" href="./css/general/home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;700;800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <nav class="nav-bar">
-                <div class="home-logo">
-                    <img class="logo" src="./img/general/logo.PNG" alt="Home logo">
+        <div class="wrapper">
+            <header class="container san">
+                <nav class="my-nav-bar">
+                    <div class="home-logo">
+                        <img class="logo" src="./img/general/logo.PNG" alt="Home logo">
+                    </div>
+                    <ul class="my-navbar-nav">
+                        <li class="my-nav-link">
+                            <a href="./">Home</a>
+                        </li>
+                        <li class="my-nav-link">
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li class="my-nav-link">
+                            <a href="./blogs/general/categories.html">Categories</a>
+                        </li>
+                        <li class="my-nav-link">
+                            <a href="./blogs/general/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="container">
+                <div class="flexing hero-section">
+                    <div class="left">
+                        <h1 class="serif large">Welcome to my Diary</h1>
+                        <p class="san small">
+                            The best way to know about someone is to read his/her Diary!
+                            Don't worry I will not bore you too much!
+                        </p>
+                        <p class="san small">Here I will try to share my thoughts and learnings in Bangla</p>
+                        <div class="button">
+                            <a href="./about.html" class="serif small italic">Who am I?</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img class="profile-logo" src="./img/general/profile-logo.png" alt="Profile logo">
+                    </div>
                 </div>
-                <ul class="navbar-nav">
-                    <li class="nav-link">
-                        <a href="./">Home</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="./about">About</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="./blogs/general/categories">Categories</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="./blogs/general/contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+            </main>
+            <section class="container">
+                <div class="categories">
+                    <div class="category-card">
+                        <h1 class="san-bangla medium">প্রোগ্রামিং শুরুর আগে</h1>
+                        <p class="san-bangla small">প্রোগ্রামিং এর জগতে পা দেয়ার আগে আমাদের সবারই উচিত কিছু বিষয়ে জেনে নেয়া</p>
+                    </div>
+                    <div class="category-card">
+                        <h1 class="san-bangla medium">গণিতের জগতে</h1>
+                        <p class="san-bangla small">প্রোগ্রামিং এর জগতে পা দেয়ার আগে আমাদের সবারই উচিত কিছু বিষয়ে জেনে নেয়া</p>
+                    </div>
+                    <div class="category-card">
+                        <h1 class="san-bangla medium">পাইথন প্রোগ্রামিং</h1>
+                        <p class="san-bangla small">প্রোগ্রামিং এর জগতে পা দেয়ার আগে আমাদের সবারই উচিত কিছু বিষয়ে জেনে নেয়া</p>
+                    </div>
+                </div>
+
+            </section>
         </div>
     </body>
 </html>
