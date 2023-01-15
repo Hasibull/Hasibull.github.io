@@ -1,3 +1,3 @@
-<h1 align="center"><span style="color: green">Be inspired</style> but <span style="color: red">don't copy!</span></h1>
+<h1 align="center"><font color='red'>Be inspired</font> but <font color='red'>don't copy!</font></h1>
 <br>
 <br>
