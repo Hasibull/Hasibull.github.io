@@ -5,6 +5,7 @@
 .hero-section {
     background-color: #FDD93D;
     margin-top: 2vh;
+    margin-bottom: 2vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 5%;
@@ -16,20 +17,3 @@
     max-width: 100%;
     border-radius: 50%;
 }
-
-/* .categories {
-    padding-top: 12vh;
-    padding-bottom: 12vh;
-    padding-left: 2%;
-    padding-right: 2%;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 20px;
-}
-.category-card {
-    width: fit-content;
-    padding: 10px 20px;
-    border: 3px solid #FDD93D;
-    border-radius: 5px;
-} */
