@@ -13,7 +13,7 @@
     </head>
     <body>
         <div class="wrapper">
-            <header class="container san">
+            <header class="container san navbar">
                 <nav class="my-nav-bar">
                     <div class="home-logo">
                         <img class="logo" src="./img/general/logo.PNG" alt="Home logo">
@@ -35,5 +35,12 @@
                 </nav>
             </header>
         </div>
+
+        <script type="text/javascript">
+            window.addEventListener("scroll", function(){
+                let header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
     </body>
 </html>

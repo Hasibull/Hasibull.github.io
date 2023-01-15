@@ -1,21 +1,22 @@
-
-.my-nav-bar {
+.navbar {
     width: 100%;
-    margin: 5px auto;
+    margin: 8px auto;
     background-color: #fff;
     padding: 12px 10px;
+    transition: 0.6s;
+}
+
+.my-nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
 }
 
 .home-logo .logo{
     height: 70px;
     width: 70px;
     border-radius: 50%;
+    transition: 0.6s;
 }
 
 .my-navbar-nav{
@@ -30,4 +31,19 @@
     font-size: 1.1rem;
     color: #333333;
     font-weight: 700;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    transition: 0.6s;
+    padding: 5px 10px;
+    box-shadow: 0px 5px rgb(230, 230, 230);
+}
+
+.sticky .home-logo .logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
 }

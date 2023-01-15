@@ -4,8 +4,9 @@
 
 .hero-section {
     background-color: #FDD93D;
-    padding-top: 12vh;
-    padding-bottom: 12vh;
+    margin-top: 2vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 5%;
     padding-right: 5%;
     border-radius: 10px;
