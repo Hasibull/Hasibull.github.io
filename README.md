@@ -1,4 +1,4 @@
 <br>
 <br>
 <br>
-## Be inspired but don't copy!
+<h1 align="center">Be inspired but don't copy!</h1>
