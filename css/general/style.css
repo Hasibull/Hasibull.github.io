@@ -113,8 +113,12 @@ body {
     padding: 10px 18px;
     border: 3px solid #FDD93D;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .category-card:hover {
-    box-shadow: 0 0 25px #FDD93D;
+    box-shadow: 0 0 40px #FDD93D;
 }
