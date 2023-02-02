@@ -155,6 +155,8 @@ body {
 /* Responsive styling */
 /* ------------------------------------------ */
 
-@media only screen() {
-    
+@media (max-width: 680px) {
+    .categories {
+        grid-template-columns: 1fr 1fr;
+    }
 }

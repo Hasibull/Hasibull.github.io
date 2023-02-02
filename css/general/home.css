@@ -32,4 +32,15 @@
 /* Responsive styling */
 /* ------------------------------------------ */
 
+@media (max-width: 680px) {
+    .hero-section {
+        padding-left: 12%;
+        padding-right: 12%;
+        grid-template-columns: 1fr;
+    }
 
+    .profile-logo {
+        max-width: 100%;
+        margin-top: 50px;
+    }
+}
