@@ -122,3 +122,39 @@ body {
 .category-card:hover {
     box-shadow: 0 0 40px #FDD93D;
 }
+
+.hover {
+    padding: 0 8px;
+}
+
+.hover::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: #FDD93D;
+    left: 0;
+    bottom: -8px;
+    transition: 0.3s;
+}
+.hover:hover:after {
+    width: 100%;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #FDD93D;
+    left: 0;
+    bottom: -8px;
+}
+
+/* ------------------------------------------ */
+/* Responsive styling */
+/* ------------------------------------------ */
+
+@media only screen() {
+    
+}
