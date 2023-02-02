@@ -2,6 +2,12 @@
 /* General styling */
 /* ------------------------------------------ */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .hero-section {
     background-color: #FDD93D;
     margin-top: 2vh;
@@ -11,9 +17,19 @@
     padding-left: 5%;
     padding-right: 5%;
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-column-gap: 5px;
+    align-items: center;
 }
 
 .profile-logo {
     max-width: 100%;
     border-radius: 50%;
 }
+
+/* ------------------------------------------ */
+/* Responsive styling */
+/* ------------------------------------------ */
+
+
