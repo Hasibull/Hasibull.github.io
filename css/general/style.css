@@ -166,3 +166,9 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+@media (min-width: 1380px) {
+    .wrapper {
+        max-width: 80%;
+    }
+}
