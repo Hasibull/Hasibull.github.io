@@ -155,8 +155,14 @@ body {
 /* Responsive styling */
 /* ------------------------------------------ */
 
-@media (max-width: 680px) {
+@media (max-width: 880px) {
     .categories {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 680px) {
+    .categories {
+        grid-template-columns: 1fr;
     }
 }
