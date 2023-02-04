@@ -1,0 +1,61 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.down-arrow {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.basic-info {
+    margin-top: 25px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.show {
+    height: 40vh;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+blockquote {
+    border-left: 5px solid #FDD93D;
+}
+
+.quote {
+    margin-left: 5px;
+    margin-top: 9px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
