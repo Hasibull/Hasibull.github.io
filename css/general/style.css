@@ -51,6 +51,10 @@ body {
     margin-bottom: 40px;
 }
 
+a {
+    text-decoration: none;
+    color: #333333;
+}
 /* ------------------------------------------ */
 /* Text styling */
 /* ------------------------------------------ */
@@ -190,6 +194,21 @@ body {
 
 .mb-4 {
     margin-bottom: 40px;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 5px 9px;
+    transition: 0.4s;
+    border: 2px solid #333333;
+    border-radius: 15px;
+}
+
+.back:hover {
+    border: 2px solid #FDD93D;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #FDD93D;
 }
 
 /* ------------------------------------------ */
