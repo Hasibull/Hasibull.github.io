@@ -32,7 +32,7 @@
 }
 
 .show {
-    height: 40vh;
+    height: fit-content;
 }
 
 .center {
@@ -64,10 +64,10 @@ blockquote {
 
 @media (max-width: 680px) {
     .about-me {
-        margin-top: 5%;
+        margin-top: 2%;
         margin-bottom: 5%;
     }
     .show {
-        height: 60vh;
+        height: fit-content;
     }
 }
