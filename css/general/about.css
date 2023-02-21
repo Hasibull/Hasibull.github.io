@@ -64,7 +64,8 @@ blockquote {
 
 @media (max-width: 680px) {
     .about-me {
-        height: 100vh;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     .show {
         height: 60vh;
