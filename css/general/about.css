@@ -1,73 +1,66 @@
 .about-me {
-    height: fit-content;
-    margin-top: 12%;
-    margin-bottom: 12%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* margin-top: 30px; */
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 25px;
+    margin: 15px 30px;
 }
 
-.arrow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 12px;
+.sidebar {
+    position: sticky;
+    top: 35%;
+    align-self: start;
 }
 
-.down-arrow {
-    height: 70px;
-    width: 70px;
-    cursor: pointer;
+.section {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.basic-info {
-    margin-top: 25px;
-    margin-bottom: 40px;
-    height: 0;
-    overflow: hidden;
-    transition: 0.5s;
+.card {
+    text-align: center;
 }
 
-.show {
-    height: fit-content;
-}
-
-.center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
     margin-bottom: 15px;
 }
 
-blockquote {
-    border-left: 5px solid #FDD93D;
-    margin-bottom: 20px;
+.card h2 {
+    margin: 10px 0 5px;
 }
 
-.quote {
-    margin-left: 10px;
-    margin-top: 12px;
+.links a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin: 8px 0;
+    font-size: 16px;
+    transition: 0.3s;
 }
 
-.footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+.links a:hover {
+    color: #007bff;
 }
 
-@media (max-width: 680px) {
+/* Right section scrollable content */
+.content {
+    padding:  20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
     .about-me {
-        margin-top: 4%;
-        margin-bottom: 5%;
+        grid-template-columns: 1fr;
     }
-    .show {
-        height: fit-content;
+    .sidebar {
+        position: relative;
+        top: 10px;
     }
 }
