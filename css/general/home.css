@@ -23,9 +23,17 @@
     align-items: center;
 }
 
-.diary-logo{
+.diary-logo {
     max-width: 90%;
     /* border-radius: 50%; */
+}
+
+.blog-section {
+    height: 80vh;
+    margin-bottom: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 9%;
+    padding-right: 5%;
 }
 
 /* ------------------------------------------ */
