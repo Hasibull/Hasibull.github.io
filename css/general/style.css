@@ -93,8 +93,19 @@ a {
     font-weight: 400;
 }
 
+.bold {
+    font-weight: bolder;
+}
+
 .italic {
     font-style: italic;
+}
+
+.text-underline {
+    display: block;
+    /* max-width: fit-content; */
+    border-bottom: 2px solid #FDD93D;
+    margin-bottom: 10px;
 }
 
 /* ------------------------------------------ */
@@ -179,6 +190,11 @@ a {
 
 .line {
     border-bottom: 2px solid #FDD93D;
+}
+
+.line-gap {
+    width: 100%;
+    height: 10px;
 }
 
 .mt-1 {
