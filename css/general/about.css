@@ -32,23 +32,23 @@
 }
 
 .general-list li {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 8px;
-    font-size: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 10px;
+    margin-bottom: 12px;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 .general-list li::before {
     content: "";
-    position: absolute;
-    left: 10px;
-    top: 9px;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
+    margin-top: 6px; 
     background: #FDD93D;
     border-radius: 50%;
+    flex-shrink: 0;
     box-shadow: #FDD93D
 }
 
