@@ -17,6 +17,39 @@
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: justify;
+}
+
+.align-right {
+    display: inline-block;
+    text-align: right;
+}
+
+.general-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.general-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.general-list li::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    background: #FDD93D;
+    border-radius: 50%;
+    box-shadow: #FDD93D
 }
 
 .card {
@@ -36,6 +69,10 @@
     margin: 10px 0 5px;
 }
 
+.text-blue {
+    color: blue;
+}
+
 .links a {
     display: block;
     text-decoration: none;
@@ -51,7 +88,7 @@
 
 /* Right section scrollable content */
 .content {
-    padding:  20px;
+    padding: 10px 20px;
     box-sizing: border-box;
 }
 
