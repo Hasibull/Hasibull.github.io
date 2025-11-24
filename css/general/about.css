@@ -37,7 +37,7 @@
     gap: 15px;
     margin-left: 10px;
     margin-bottom: 12px;
-    color: #333;
+    /* color: #333; */
     line-height: 1.4;
 }
 
@@ -50,6 +50,21 @@
     border-radius: 50%;
     flex-shrink: 0;
     box-shadow: #FDD93D
+}
+
+.publication-list {
+    padding-left: 32px;
+    list-style-type: disc;
+}
+
+.publication-list li {
+    line-height: 1.5;
+}
+
+.publication-list li::marker {
+    color: #FDD93D;
+    font-size: 1.9rem;
+    vertical-align: baseline;
 }
 
 .card {
