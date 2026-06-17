@@ -17,36 +17,7 @@
     </head>
     <body>
         <div class="wrapper">
-            <header class="container san">
-                <nav class="navbar">
-                    <div class="home-logo">
-                        <a href="./">
-                            <img class="logo" src="./img/general/profile-logo.png" alt="Home logo">
-                        </a>
-                    </div>
-                    <a href="#" class="navbar-toggle">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </a>
-                    <div class="navbar-links">
-                        <ul>
-                            <li class="nav-link">
-                                <a class="hover active" href="./">Home</a>
-                            </li>
-                            <li class="nav-link">
-                                <a class="hover" href="./about.html">About Me</a>
-                            </li>
-                            <li class="nav-link">
-                                <a class="hover" href="./blogs/general/categories.html">Categories</a>
-                            </li>
-                            <li class="nav-link">
-                                <a class="hover" href="./blogs/general/contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
+            <header class="container san site-navbar"></header>
             <main class="container">
                 <div class="hero-section">
                     <div class="block-1">
@@ -66,45 +37,18 @@
                 </div>
             </main>
             <section class="container blog-section center">
-                <h2 class="lora large">Blog's</h2>
-                <div class="categories">
-                    <a href="./blogs/math/">
-                        <div class="category-card">
-                            <div class="card-inside pt-1 pb-1">
-                                <img class="card-inside-img" src="./img/icon/math.png" alt="Math World">
-                                <h1 class="serif-bangla medium">গণিতের জগতে</h1>
-                            </div>
-                            <p class="serif-bangla small">এ যেন এক ভয়ংকর সুন্দর জগত! যে একবার এই জগতের সৌন্দর্য উপভোগ করতে পেড়েছে সে তার মোহে পড়েছে!!</p>
-                        </div>
-                    </a>
-                    <a href="./blogs/before-start/">
-                        <div class="category-card">
-                            <div class="card-inside">
-                                <img class="card-inside-img" src="./img/icon/before-starting-programming.png" alt="Before starting programming">
-                                <h1 class="serif-bangla medium">প্রোগ্রামিং শুরুর আগে</h1>
-                            </div>
-                            <p class="serif-bangla small">প্রোগ্রামিং এর জগতে পা দেয়ার আগে আমাদের সবারই উচিত কিছু বিষয়ে জেনে নেয়া</p>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="category-card">
-                            <div class="card-inside pt-1 pb-1">
-                                <img class="card-inside-img" src="./img/icon/python.png" alt="Python programming">
-                                <h1 class="serif-bangla medium">পাইথন প্রোগ্রামিং</h1>
-                            </div>
-                            <p class="serif-bangla small">কম্পিউটারের সাথে কথা বলার ও মানুষের সহজে বোধগম্য একটি প্রোগ্রামিং ভাষা!!</p>
-                        </div>
-                    </a>
+                <div class="section-header center">
+                    <h2 class="lora large">Featured topics</h2>
+                    <p class="serif small">There are more! Visit the categories page for the full topic list.</p>
                 </div>
+                <div class="categories featured-categories"></div>
                 <div class="button">
-                    <a href="./blogs/general/categories.html" class="serif small italic">See more &RightArrow;</a>
+                    <a href="./blogs/general/categories.html" class="serif small italic">See all categories &RightArrow;</a>
                 </div>
                 <div class="mb-4"></div>
             </section>
         </div>
-        <footer class="footer serif">
-            <p class="text-center">Copyright &copy; Hasibul's Diary, All rights reserved.</p>
-        </footer>
-        <script type="text/javascript" src="./js/app.js"></script>
+        <footer class="site-footer"></footer>
+        <script type="text/javascript" src="./js/site.js"></script>
     </body>
 </html>

@@ -1,0 +1,77 @@
+{
+  "categories": [
+    {
+      "slug": "before-start",
+      "title": "প্রোগ্রামিং শুরুর আগে",
+      "description": "প্রোগ্রামিং শুরুর আগে আমাদের সবারই উচিত কিছু বিষয়ে জেনে নেয়া।",
+      "image": "img/icon/before-starting-programming.png",
+      "path": "blogs/before-start/",
+      "featured": true
+    },
+    {
+      "slug": "math",
+      "title": "গণিতের জগতে",
+      "description": "এ যেন এক ভয়ংকর সুন্দর জগত! যে একবার এই জগতের সৌন্দর্য উপভোগ করেছে সে সেই মোহে পড়ে।",
+      "image": "img/icon/math.png",
+      "path": "blogs/math/",
+      "featured": true
+    },
+    {
+      "slug": "python",
+      "title": "পাইথন প্রোগ্রামিং",
+      "description": "মেশিনের সাথে কথা বলার একটি সহজ ও শক্তিশালী ভাষা।",
+      "image": "img/icon/python.png",
+      "path": "blogs/general/"
+    },
+    {
+      "slug": "oop",
+      "title": "ওওপি",
+      "description": "অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং: গুছানো ও পুনঃব্যবহারযোগ্য কোডের পথ।",
+      "image": "img/icon/oop.png",
+      "path": "blogs/general/"
+    },
+    {
+      "slug": "data-structure",
+      "title": "ডেটা স্ট্রাকচার",
+      "description": "ডেটা সংরক্ষণ ও নিয়ন্ত্রণের উপায় যাতে পরবর্তীতে সহজে কাজে লাগানো যায়।",
+      "image": "img/icon/data-structure.png",
+      "path": "blogs/general/",
+      "featured": true
+    },
+    {
+      "slug": "algorithm",
+      "title": "অ্যালগরিদম",
+      "description": "যে কোন সমস্যা সমাধানের ধাপে ধাপে রেসিপি। প্রোগ্রামিং জগতে যাকে বলা হয় অ্যালগরিদম।",
+      "image": "img/icon/algorithm.png",
+      "path": "blogs/general/"
+    },
+    {
+      "slug": "data-science",
+      "title": "ডেটা সাইন্স",
+      "description": "ডেটা নিয়ে বিজ্ঞান: গুরুত্বপূর্ণ সিদ্ধান্ত নেওয়ার জন্য তথ্য বিশ্লেষণ।",
+      "image": "img/icon/data-analysis.png",
+      "path": "blogs/general/"
+    },
+    {
+      "slug": "c-programming",
+      "title": "সি প্রোগ্রামিং",
+      "description": "কম্পিউটারের সাথে কথা বলার একটি শক্তিশালী ভাষা।",
+      "image": "img/icon/c-programming.png",
+      "path": "blogs/general/"
+    },
+    {
+      "slug": "web",
+      "title": "ওয়েব পরিচিতি",
+      "description": "ইন্টারনেটের বিশাল জগতে দ্রুত পরিচিতি।",
+      "image": "img/icon/web.png",
+      "path": "blogs/general/"
+    },
+    {
+      "slug": "thinking",
+      "title": "আমার যতো ভাবনা!",
+      "description": "নিজের মাথায় ঘুরে বেড়ানো হাজারো ভাবনা।",
+      "image": "img/icon/my-thinking.png",
+      "path": "blogs/general/"
+    }
+  ]
+}

@@ -10,20 +10,24 @@
 
 body {
     width: 100%;
+    min-height: 100vh;
     font-weight: 400;
     line-height: 1.6;
-    color: #333333;
+    color: #1f2937;
+    background: #f5f7fb;
     user-select: none;
 }
 
 .wrapper {
-    max-width: 90%;
+    max-width: 1080px;
     margin: 0 auto;
+    padding: 20px 0;
 }
 
 .container {
     max-width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .flexing {
@@ -116,16 +120,17 @@ a {
 
 .button {
     margin-top: 15px;
-    /* display: inline; */
-    width: fit-content;
-    padding: 12px 15px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 12px 20px;
     background-color: #343A40;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .button a {
     text-decoration: none;
     color: #fff;
+    font-weight: 600;
 }
 
 .categories {
@@ -135,37 +140,175 @@ a {
     padding-right: 5%;
     border-radius: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    column-gap: 24px;
+    row-gap: 24px;
+    align-items: stretch;
+}
+
+.featured-categories {
+    max-width: 900px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    justify-items: center;
 }
 
 .category-card {
-    width: fit-content;
-    padding: 10px 18px;
-    border: 3px solid #FDD93D;
-    border-radius: 5px;
+    width: 100%;
+    min-height: 250px;
+    padding: 26px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 18px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.card-inside {
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-}
-
-.card-inside-img {
-    max-width: 50px;
-    max-height: 55px;
-    margin-right: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .category-card:hover {
-    box-shadow: 0 0 40px #FDD93D;
+    transform: translateY(-5px);
+    box-shadow: 0 24px 50px rgba(0, 0, 0, 0.12);
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.category-card .card-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.category-card .card-inside h1,
+.category-card .card-inside h2 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.category-card p {
+    margin-top: 18px;
+    line-height: 1.75;
+    color: #4f4f4f;
+    font-size: 1rem;
+}
+
+.card-inside-img {
+    width: 52px;
+    height: 52px;
+    margin: 0;
+    padding: 11px;
+    background: rgba(34, 50, 70, 0.06);
+    border-radius: 14px;
+}
+
+.section-header {
+    max-width: 760px;
+    margin: 0 auto 28px;
+    text-align: center;
+}
+
+.section-header p {
+    margin-top: 14px;
+    font-size: 1rem;
+    color: #5a5a5a;
+    line-height: 1.8;
+}
+
+.post-layout {
+    display: grid;
+    grid-template-columns: 2.2fr 1fr;
+    gap: 32px;
+    align-items: start;
+    padding: 40px 0;
+}
+
+@media (max-width: 768px) {
+    .post-layout {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+
+.post {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.06);
+}
+
+.related-posts {
+    position: sticky;
+    top: 100px;
+    align-self: start;
+}
+
+.related-box {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 28px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
+}
+
+.related-box h2 {
+    margin-bottom: 22px;
+}
+
+.related-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 14px;
+}
+
+.related-box li {
+    margin: 0;
+}
+
+.related-box a {
+    color: #1f2937;
+    display: inline-block;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.related-box a:hover {
+    color: #0f4c81;
+    transform: translateX(2px);
+}
+
+.post-content p {
+    margin-bottom: 1.6rem;
+    color: #4b5563;
+    line-height: 1.9;
+}
+
+.post h1 {
+    margin-bottom: 0.35rem;
+}
+
+.post .small {
+    color: #6b7280;
+}
+
+.related-box a {
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.related-box a:hover {
+    color: #0f4c81;
+    transform: translateX(2px);
+}
+
+.card-inside-img {
+    width: 52px;
+    height: 52px;
+    margin: 0;
 }
 
 .hover {
