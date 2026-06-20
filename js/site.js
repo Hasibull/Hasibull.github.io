@@ -54,7 +54,7 @@ function createCategoryCard(category) {
     return `
         <a href="${rootPath}${category.path}">
             <div class="category-card">
-                <div class="card-inside pt-1 pb-1">
+                <div class="card-inside pt-1">
                     <img class="card-inside-img" src="${rootPath}${category.image}" alt="${category.title}">
                     <h1 class="serif-bangla medium">${category.title}</h1>
                 </div>
